@@ -10,6 +10,7 @@
     padding: 5px;
     color: aliceblue;
 
+
 }
 
 .company-Logo {
@@ -46,6 +47,11 @@
     background-color: black;
 
 
+
+}
+
+.banner-img {
+    margin-top: 85px;
 }
 
 .banner-text {
@@ -75,4 +81,45 @@
     border-radius: 5px;
 }
 
-.card {}
+.section-2 {
+    margin-top: 80px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.title-2 {
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.card-1 {
+
+    width: 350px;
+    height: 250px;
+    border: 1px solid gray;
+    text-align: center;
+    box-shadow: 8px 8px 16px gray;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: .8ms;
+}
+
+.card-1:hover {
+    border: 1px solid red;
+    margin-top: -2px;
+    transition: .8ms;
+
+}
+
+.dambel {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
